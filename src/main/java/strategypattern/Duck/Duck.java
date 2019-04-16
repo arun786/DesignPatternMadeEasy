@@ -1,7 +1,7 @@
-package chapterone.Duck;
+package strategypattern.Duck;
 
-import chapterone.FlyBehaviour.FlyBehaviour;
-import chapterone.QuackBehaviour.QuackBehaviour;
+import strategypattern.FlyBehaviour.FlyBehaviour;
+import strategypattern.QuackBehaviour.QuackBehaviour;
 import lombok.Getter;
 import lombok.Setter;
 

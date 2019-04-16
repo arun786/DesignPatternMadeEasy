@@ -1,7 +1,7 @@
-package chapterone.Duck;
+package strategypattern.Duck;
 
-import chapterone.FlyBehaviour.FlyWithWings;
-import chapterone.QuackBehaviour.Quack;
+import strategypattern.FlyBehaviour.FlyWithWings;
+import strategypattern.QuackBehaviour.Quack;
 
 public class MalardDuck extends Duck {
 

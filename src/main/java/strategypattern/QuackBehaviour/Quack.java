@@ -1,4 +1,4 @@
-package chapterone.QuackBehaviour;
+package strategypattern.QuackBehaviour;
 
 public class Quack implements QuackBehaviour {
     private String name;

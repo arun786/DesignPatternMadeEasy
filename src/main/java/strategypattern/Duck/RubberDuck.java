@@ -1,7 +1,7 @@
-package chapterone.Duck;
+package strategypattern.Duck;
 
-import chapterone.FlyBehaviour.FlyNoWay;
-import chapterone.QuackBehaviour.MuteQuack;
+import strategypattern.FlyBehaviour.FlyNoWay;
+import strategypattern.QuackBehaviour.MuteQuack;
 
 public class RubberDuck extends Duck {
     private String name;

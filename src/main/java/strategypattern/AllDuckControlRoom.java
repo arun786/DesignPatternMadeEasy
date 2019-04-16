@@ -1,10 +1,10 @@
-package chapterone;
+package strategypattern;
 
-import chapterone.Duck.Duck;
-import chapterone.Duck.MalardDuck;
-import chapterone.Duck.RedHeadDuck;
-import chapterone.Duck.RubberDuck;
-import chapterone.FlyBehaviour.FlyNoWay;
+import strategypattern.Duck.Duck;
+import strategypattern.Duck.MalardDuck;
+import strategypattern.Duck.RedHeadDuck;
+import strategypattern.Duck.RubberDuck;
+import strategypattern.FlyBehaviour.FlyNoWay;
 
 public class AllDuckControlRoom {
     public static void main(String[] args) {

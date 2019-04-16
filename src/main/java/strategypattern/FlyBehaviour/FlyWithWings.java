@@ -1,4 +1,4 @@
-package chapterone.FlyBehaviour;
+package strategypattern.FlyBehaviour;
 
 public class FlyWithWings implements FlyBehaviour {
     private String name;

@@ -1,4 +1,4 @@
-package chapterone.FlyBehaviour;
+package strategypattern.FlyBehaviour;
 
 public interface FlyBehaviour {
     void fly();

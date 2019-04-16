@@ -1,7 +1,7 @@
-package chapterone.Duck;
+package strategypattern.Duck;
 
-import chapterone.FlyBehaviour.FlyWithWings;
-import chapterone.QuackBehaviour.Squeak;
+import strategypattern.FlyBehaviour.FlyWithWings;
+import strategypattern.QuackBehaviour.Squeak;
 
 public class RedHeadDuck extends Duck {
     private String name;
