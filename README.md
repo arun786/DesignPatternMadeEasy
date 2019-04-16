@@ -113,9 +113,6 @@
         }
 
         
-        import chapterone.FlyBehaviour.FlyWithWings;
-        import chapterone.QuackBehaviour.Quack;
-        
         public class MalardDuck extends Duck {
         
             private String name;
