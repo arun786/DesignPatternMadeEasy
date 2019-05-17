@@ -499,6 +499,8 @@
     
 # Factory Method Pattern
 
+## Defines an interface for creating an object but lets subclasses decide which class to instantiate.
+
 
     package FactoryMethod;
     
