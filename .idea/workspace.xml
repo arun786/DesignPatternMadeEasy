@@ -4,6 +4,7 @@
     <list default="true" id="b083495b-6681-4f50-991b-d3c4fd5f3506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,19 +21,21 @@
     <session id="1943395986">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="57" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
@@ -40,8 +43,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4543" />
-          <entry key="Markdown" value="1008" />
+          <entry key="JAVA" value="6024" />
+          <entry key="Markdown" value="1020" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -53,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="342">
-                <caret line="501" column="101" selection-start-line="501" selection-start-column="101" selection-end-line="501" selection-end-column="101" />
+              <first_editor relative-caret-position="505">
+                <caret line="787" column="5" selection-start-line="787" selection-start-column="5" selection-end-line="787" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -62,43 +65,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/OCP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" lean-forward="true" selection-end-line="124" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2109#2110#0" expanded="true" />
+                <element signature="e#2137#2138#0" expanded="true" />
+                <element signature="e#2346#2347#0" expanded="true" />
+                <element signature="e#2374#2375#0" expanded="true" />
+                <element signature="e#2895#2896#0" expanded="true" />
+                <element signature="e#2969#2970#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FactoryMethod/FactoryMethodPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="123" column="5" lean-forward="true" selection-end-line="154" selection-end-column="1" />
+            <state>
+              <caret line="123" column="5" selection-end-line="154" selection-end-column="1" />
               <folding>
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1254#1255#0" expanded="true" />
-                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#1284#1285#0" expanded="true" />
                 <element signature="e#1350#1351#0" expanded="true" />
-                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
                 <element signature="e#1446#1447#0" expanded="true" />
                 <element signature="e#1478#1479#0" expanded="true" />
-                <element signature="e#1541#1542#0" expanded="true" />
-                <element signature="e#1621#1622#0" expanded="true" />
-                <element signature="e#1687#1688#0" expanded="true" />
-                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="e#1542#1543#0" expanded="true" />
+                <element signature="e#1717#1718#0" expanded="true" />
                 <element signature="e#1783#1784#0" expanded="true" />
-                <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#1816#1817#0" expanded="true" />
                 <element signature="e#1879#1880#0" expanded="true" />
                 <element signature="e#1911#1912#0" expanded="true" />
-                <element signature="e#1974#1975#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,6 +162,8 @@
         <option value="$PROJECT_DIR$/src/main/java/observerpattern/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/simplefactory/SimpleFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/FactoryMethod/FactoryMethodPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SOLID/NotFollowingOCP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SOLID/OCP.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -181,7 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,15 +226,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="FactoryMethod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FactoryMethod" type="462c0819:PsiDirectoryNode" />
-              <item name="FactoryMethodPattern.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
@@ -322,19 +325,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558079698440" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558425499083" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -356,20 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactoryMethodPattern">
-    <configuration name="AllDuckControlRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strategypattern.AllDuckControlRoom" />
-      <module name="designpattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strategypattern.FlyBehaviour.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NotFollowingOCP">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observerpattern.App" />
       <module name="designpattern" />
@@ -409,6 +399,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID.OCP" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOLID.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simplefactory.SimpleFactory" />
       <module name="designpattern" />
@@ -423,19 +426,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AllDuckControlRoom" />
       <item itemvalue="Application.MethodOverLoading" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.SimpleFactory" />
       <item itemvalue="Application.FactoryMethodPattern" />
+      <item itemvalue="Application.NotFollowingOCP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotFollowingOCP" />
         <item itemvalue="Application.FactoryMethodPattern" />
         <item itemvalue="Application.SimpleFactory" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.MethodOverLoading" />
-        <item itemvalue="Application.AllDuckControlRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -456,18 +459,21 @@
       <workItem from="1556116904814" duration="781000" />
       <workItem from="1557103646829" duration="4481000" />
       <workItem from="1558036654326" duration="2015000" />
-      <workItem from="1558075287518" duration="2411000" />
+      <workItem from="1558075287518" duration="3234000" />
+      <workItem from="1558111650868" duration="2389000" />
+      <workItem from="1558294945476" duration="2053000" />
+      <workItem from="1558420295278" duration="3646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17522000" />
+    <option name="totallyTimeSpent" value="26433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26933333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27893335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -476,12 +482,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32925472" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
@@ -493,12 +499,12 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Connector for AWS Lambda" order="6" side_tool="true" />
+      <window_info anchor="right" id="Connector for AWS Lambda" order="6" side_tool="true" weight="0.3296" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Codota" order="11" />
+      <window_info anchor="right" id="Codota" order="11" weight="0.3296" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,9 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="643" column="19" selection-start-line="643" selection-start-column="19" selection-end-line="643" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -674,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="13" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,41 +682,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FactoryMethod/FactoryMethodPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="123" column="5" lean-forward="true" selection-end-line="154" selection-end-column="1" />
+        <state>
+          <caret line="123" column="5" selection-end-line="154" selection-end-column="1" />
           <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
             <element signature="e#1350#1351#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
             <element signature="e#1446#1447#0" expanded="true" />
             <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1717#1718#0" expanded="true" />
             <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
             <element signature="e#1879#1880#0" expanded="true" />
             <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/OCP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-end-line="124" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2109#2110#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2374#2375#0" expanded="true" />
+            <element signature="e#2895#2896#0" expanded="true" />
+            <element signature="e#2969#2970#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -731,8 +727,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="501" column="101" selection-start-line="501" selection-start-column="101" selection-end-line="501" selection-end-column="101" />
+          <first_editor relative-caret-position="505">
+            <caret line="787" column="5" selection-start-line="787" selection-start-column="5" selection-end-line="787" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
