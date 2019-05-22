@@ -4,7 +4,7 @@
     <list default="true" id="b083495b-6681-4f50-991b-d3c4fd5f3506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,16 +21,17 @@
     <session id="1943395986">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -43,8 +44,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6024" />
-          <entry key="Markdown" value="1020" />
+          <entry key="JAVA" value="6619" />
+          <entry key="Markdown" value="1059" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -56,8 +57,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="505">
-                <caret line="787" column="5" selection-start-line="787" selection-start-column="5" selection-end-line="787" selection-end-column="5" />
+              <first_editor relative-caret-position="298">
+                <caret line="790" lean-forward="true" selection-start-line="790" selection-end-line="790" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,8 +68,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="168">
+              <caret line="7" column="38" selection-end-line="67" />
+              <folding>
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,16 +83,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/OCP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-end-line="124" selection-end-column="1" />
+            <state relative-caret-position="1656">
+              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2109#2110#0" expanded="true" />
-                <element signature="e#2137#2138#0" expanded="true" />
-                <element signature="e#2346#2347#0" expanded="true" />
-                <element signature="e#2374#2375#0" expanded="true" />
-                <element signature="e#2895#2896#0" expanded="true" />
-                <element signature="e#2969#2970#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FactoryMethod/FactoryMethodPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="2184">
               <caret line="123" column="5" selection-end-line="154" selection-end-column="1" />
               <folding>
                 <element signature="e#1284#1285#0" expanded="true" />
@@ -164,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/java/FactoryMethod/FactoryMethodPattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/SOLID/NotFollowingOCP.java" />
         <option value="$PROJECT_DIR$/src/main/java/SOLID/OCP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -292,6 +294,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="OCP.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="strategypattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -331,13 +342,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558425499083" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558505829791" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -359,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NotFollowingOCP">
+  <component name="RunManager" selected="Application.LiskhovSubstitutionPrinciple">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observerpattern.App" />
       <module name="designpattern" />
@@ -386,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodOverLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.MethodOverLoading" />
+    <configuration name="LiskhovSubstitutionPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID.LiskhovSubstitutionPrinciple" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.polymorphism.*" />
+          <option name="PATTERN" value="SOLID.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,12 +410,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SOLID.OCP" />
+    <configuration name="MethodOverLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.MethodOverLoading" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SOLID.*" />
+          <option name="PATTERN" value="oops.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,11 +441,11 @@
       <item itemvalue="Application.App" />
       <item itemvalue="Application.SimpleFactory" />
       <item itemvalue="Application.FactoryMethodPattern" />
-      <item itemvalue="Application.NotFollowingOCP" />
+      <item itemvalue="Application.LiskhovSubstitutionPrinciple" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NotFollowingOCP" />
+        <item itemvalue="Application.LiskhovSubstitutionPrinciple" />
         <item itemvalue="Application.FactoryMethodPattern" />
         <item itemvalue="Application.SimpleFactory" />
         <item itemvalue="Application.App" />
@@ -462,18 +473,19 @@
       <workItem from="1558075287518" duration="3234000" />
       <workItem from="1558111650868" duration="2389000" />
       <workItem from="1558294945476" duration="2053000" />
-      <workItem from="1558420295278" duration="3646000" />
+      <workItem from="1558420295278" duration="3877000" />
+      <workItem from="1558491045942" duration="4321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26433000" />
+    <option name="totallyTimeSpent" value="30985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27893335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28213334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -482,8 +494,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -521,6 +533,12 @@
           <line>6</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -682,7 +700,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FactoryMethod/FactoryMethodPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="2184">
           <caret line="123" column="5" selection-end-line="154" selection-end-column="1" />
           <folding>
             <element signature="e#1284#1285#0" expanded="true" />
@@ -701,25 +719,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/OCP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="1656">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/OCP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SOLID/LiskhovSubstitutionPrinciple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-end-line="124" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="7" column="38" selection-end-line="67" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2109#2110#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2895#2896#0" expanded="true" />
-            <element signature="e#2969#2970#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -727,8 +745,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="505">
-            <caret line="787" column="5" selection-start-line="787" selection-start-column="5" selection-end-line="787" selection-end-column="5" />
+          <first_editor relative-caret-position="298">
+            <caret line="790" lean-forward="true" selection-start-line="790" selection-end-line="790" />
           </first_editor>
           <second_editor />
         </state>
