@@ -4,6 +4,7 @@
     <list default="true" id="b083495b-6681-4f50-991b-d3c4fd5f3506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Singleton/BreakBasicSingletonUsingSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Singleton/BreakBasicSingletonUsingSerialization.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +46,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10501" />
-          <entry key="Markdown" value="1715" />
+          <entry key="JAVA" value="10507" />
+          <entry key="Markdown" value="1721" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -58,8 +59,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="217">
-                <caret line="1061" column="18" selection-start-line="1061" selection-start-column="18" selection-end-line="1061" selection-end-column="18" />
+              <first_editor relative-caret-position="265">
+                <caret line="1083" column="39" selection-start-line="1083" selection-start-column="39" selection-end-line="1083" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -83,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Singleton/BreakBasicSingletonUsingSerialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="52" column="7" lean-forward="true" selection-end-line="59" />
+            <state relative-caret-position="480">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -348,7 +349,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558916060014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558916508941" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -483,12 +484,12 @@
       <workItem from="1558420295278" duration="3877000" />
       <workItem from="1558491045942" duration="4958000" />
       <workItem from="1558618139275" duration="7444000" />
-      <workItem from="1558907740934" duration="5166000" />
+      <workItem from="1558907740934" duration="5467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44232000" />
+    <option name="totallyTimeSpent" value="44533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -503,12 +504,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
@@ -805,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Singleton/BreakBasicSingletonUsingSerialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="52" column="7" lean-forward="true" selection-end-line="59" />
+        <state relative-caret-position="480">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -820,8 +821,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="217">
-            <caret line="1061" column="18" selection-start-line="1061" selection-start-column="18" selection-end-line="1061" selection-end-column="18" />
+          <first_editor relative-caret-position="265">
+            <caret line="1083" column="39" selection-start-line="1083" selection-start-column="39" selection-end-line="1083" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>
