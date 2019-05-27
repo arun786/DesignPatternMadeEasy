@@ -976,3 +976,114 @@
     }
   
     
+## Singleton Pattern
+
+Basic way od creating a singleton is
+
+1. define the constructor as private and create an instance of the class as static and expose
+a public method to get the instance.
+
+
+    package singleton;
+    
+    import lombok.Getter;
+    import lombok.Setter;
+    
+    public class BasicSingleton {
+    
+        public static void main(String[] args) {
+            Single instance = Single.getInstance();
+            instance.setName("Arun");
+            String name = instance.getName();
+            System.out.println(name);
+        }
+    
+    }
+    
+    @Getter
+    @Setter
+    class Single {
+        private String name;
+        /**
+         * Make a constructor private and create an instance inside the class and
+         * define a public method to get the instance
+         */
+        private Single() {
+        }
+    
+        private static final Single instance = new Single();
+    
+        public static Single getInstance() {
+            return instance;
+        }
+    }
+
+
+But the above Singleton can be broken using
+
+    1. Serializaton
+    2. Reflection
+    
+    
+# Serialization
+
+    package Singleton;
+    
+    import lombok.Getter;
+    import lombok.Setter;
+    
+    import java.io.*;
+    
+    public class BreakBasicSingletonUsingSerialization {
+    
+        private static void saveFile(Singlet singleton, String nameOfFile) throws Exception {
+            try (FileOutputStream fileOutputStream = new FileOutputStream(nameOfFile);
+                 ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream)) {
+                objectOutputStream.writeObject(singleton);
+            }
+        }
+    
+        private static Singlet readFile(String nameOfFile) throws IOException, ClassNotFoundException {
+            try (FileInputStream fileInputStream = new FileInputStream(nameOfFile);
+                 ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)) {
+                return (Singlet) objectInputStream.readObject();
+            }
+        }
+    
+    
+        public static void main(String[] args) throws Exception {
+            Singlet instance = Singlet.getInstance();
+            String nameOfFile = "abc.txt";
+            saveFile(instance, nameOfFile);
+    
+            Singlet singlet = readFile(nameOfFile);
+    
+            System.out.println(instance == singlet); //This will return false, if readResolve is not present in the 
+            class , which means 2 instances of Siglet is created
+    
+        }
+    
+    }
+    
+    
+    @Getter
+    @Setter
+    class Singlet implements Serializable {
+        private String name;
+    
+        private Singlet() {
+        }
+    
+        private static final Singlet instance = new Singlet();
+    
+        public static Singlet getInstance() {
+            return instance;
+        }
+    
+        /**
+         * @return - In order to make the singleton a singleton, we need to return the instance for the below method
+         */
+        protected Object readResolve() {
+            return instance;
+        }
+    }
